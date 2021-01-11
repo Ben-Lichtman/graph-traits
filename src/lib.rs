@@ -1,4 +1,3 @@
-pub mod implementations;
 #[cfg(feature = "petgraph")]
 mod petgraph;
 

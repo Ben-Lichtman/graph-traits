@@ -1,8 +1,11 @@
 [package]
-name = "graphs"
+name = "graph-traits"
 version = "0.1.0"
 authors = ["Ben Lichtman"]
 edition = "2018"
+description = "Traits for graph data structures"
+repository = "https://github.com/Ben-Lichtman/graph-traits"
+license = "MIT OR Apache-2.0"
 
 [features]
 default = ["petgraph"]
