@@ -67,7 +67,7 @@ where
 	fn edge_mut(&mut self, id: Self::EdgeID) -> &mut E { self.edge_weight_mut(id).unwrap() }
 }
 
-////////////////////////////////
+// Petgraph does not have some traits which align with some of the traits in this crate therefore we implement per-struct
 
 impl<N, E, Ty, Ix> GraphNodeRemovable<N> for Graph<N, E, Ty, Ix>
 where
